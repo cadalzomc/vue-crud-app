@@ -10,8 +10,14 @@ Instruction:
 
 (If you already have an account in GitHub) ->
 1. You can run the app without cloning it to your PC, just go to codespaces and (Create codespace on main).
-2. Wait for the IDE to initialize then run (npm run dev or yarn dev) to the terminal.
-
+2. Wait for the IDE to initialize then run the command below to the terminal.
+```sh
+npm run dev
+```
+or
+```sh
+yarn dev
+```
 
 (If you do not have GitHub Account)
 1. Clone the project using this link: https://github.com/cadalzomc/vue-crud-app.git
