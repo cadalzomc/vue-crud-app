@@ -31,7 +31,7 @@ or
 ```sh
 yarn
 ```
-4. run the app
+4. Run the app
    
 ```sh
 npm run dev
@@ -42,8 +42,3 @@ yarn dev
 ```
 
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
