@@ -6,31 +6,35 @@ This template should help get you started developing with Vue 3 in Vite.
 
 [VSCode](https://code.visualstudio.com/)
 
-## Type Support for `.vue` Imports in TS
+Instruction:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+(If you already have an account in GitHub) ->
+1. You can run the app without cloning it to your PC, just go to codespaces and (Create codespace on main).
+2. Wait for the IDE to initialize then run (npm run dev or yarn dev) to the terminal.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+(If you do not have GitHub Account)
+1. Clone the project using this link: https://github.com/cadalzomc/vue-crud-app.git
+2. Navigate to project, open the project using VSCode (recommended).
+3. Open Terminal and run
 
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
+or
+```sh
+yarn
+```
+4. run the app
+   
 ```sh
 npm run dev
 ```
-
-### Type-Check, Compile and Minify for Production
-
+or
 ```sh
-npm run build
+yarn dev
 ```
+
 
 ### Lint with [ESLint](https://eslint.org/)
 
